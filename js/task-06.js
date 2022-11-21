@@ -6,6 +6,7 @@ function onChangeFocus (evt){
 
     if (evt.currentTarget.value.length == inputElement.getAttribute('data-length')) {
         inputElement.classList.add('valid')
+        inputElement.classList.remove('invalid')
     } else {
         inputElement.classList.remove('valid')
         inputElement.classList.add('invalid')

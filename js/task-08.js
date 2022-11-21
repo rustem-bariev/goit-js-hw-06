@@ -11,5 +11,6 @@ if (email.value === "" || password.value === "") {
     alert(`Всі поля повинні бути заповнені!`)
 }
 
-console.log('email: ${email.value}, Password: ${password.value}');
-event.currentTarget.reset();}
+console.log(`email: ${email.value}, Password: ${password.value}`);
+event.currentTarget.reset();
+}
